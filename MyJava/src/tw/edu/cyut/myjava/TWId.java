@@ -20,4 +20,15 @@ public class TWId {
 		this.id = id;
 	}
 	
+	static TWId createTWIdByString(String id) {
+		if (id.length()<10) {
+			return null;
+		}else {
+			return new TWId(id);
+		}
+	}
+	
+	public String getId() {return id;}
+	
+	
 }
