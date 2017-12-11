@@ -9,6 +9,9 @@ public class Cyut01 {
 		b1.upSpeed();
 		b1.upSpeed();
 		System.out.println(b1.speed);
+		b1.downSpeed();
+		System.out.println(b1.speed);
+		
 		
 		
 	}
