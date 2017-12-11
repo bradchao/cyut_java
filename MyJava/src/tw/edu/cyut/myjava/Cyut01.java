@@ -19,8 +19,13 @@ public class Cyut01 {
 
 }
 
-class Bike {
+class Bike extends Object{
 	private double speed;
+	
+	Bike(){
+		speed = 1;
+		System.out.println("Bike()");
+	}
 	
 	void upSpeed() {
 		speed = (speed<1)?1:speed*1.2;
